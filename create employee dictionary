@@ -1,0 +1,14 @@
+emp={}
+n=int(input ('enter no of employees:')) 
+for i in range(1,n+1):
+   l=[]
+   name=input('Enter empname') 
+   l.append (name) 
+   desig=input('Enter empdesignation')                     
+   l.append (desig)
+   salary=int(input("enter empsal"))
+   l.append(salary)
+   phno = int(input('Enter empphn'))
+   l.append(phno)
+   emp[i]=l
+print(emp)
