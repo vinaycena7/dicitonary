@@ -1,0 +1,13 @@
+n=int(input('enter no.of students'))
+d={}
+for i in range ( n ) : 
+    l = input ( ) . split ( ' ' ) 
+    k = l[ 0] 
+    v = l[ 1 ]
+    d[k]=v 
+for i in range(n):
+       a=input ( ) 
+       if a in d : 
+          print(d[a])
+       else : 
+          print('No')
